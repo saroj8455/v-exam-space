@@ -13,6 +13,7 @@ import { CardCompComponent } from './components/card-comp/card-comp.component';
 import { HeadingComponent } from './components/heading/heading.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ProductService } from './services/product.service';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
     PrimeModule
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })

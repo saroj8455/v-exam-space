@@ -5,6 +5,8 @@ import { MenubarModule } from 'primeng/menubar';
 import { InputTextModule } from 'primeng/inputtext';
 import { CheckboxModule } from 'primeng/checkbox';
 import { InputTextareaModule } from 'primeng/inputtextarea';
+import { TableModule } from 'primeng/table';
+import { MultiSelectModule } from 'primeng/multiselect';
 @NgModule({
   declarations: [],
   imports: [CommonModule],
@@ -13,7 +15,9 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
     MenubarModule,
     InputTextModule,
     CheckboxModule,
-    InputTextareaModule
+    InputTextareaModule,
+    TableModule,
+    MultiSelectModule
   ],
 })
 export class PrimeModule {}
