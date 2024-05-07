@@ -11,7 +11,8 @@ Change the below to properties in angular.json <br>
             npm i -D @capacitor/cli <br>
             npx cap init <br>
             (Ask for appname package name) <br>
-            npm i @capacitor/android @capacitor/ios <br>
+            npm i @capacitor/android @capacitor/ios <br> 
+            `"app": "ng build && npx cap add android && npx cap sync && npx cap open android"` add the script in package.json
 ## Generate module in Angular CLI
 `ng g m admin --routing` <br>
 `ng g m user --routing` <br>
